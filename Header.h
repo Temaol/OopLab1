@@ -21,14 +21,9 @@ public:
     second = s;
     }
  
-    void get (){
-        cout << hour << ":" << minute << ":" << second << endl;
-    }
+    void get ();
     
-    void get1 (){
-        cout << hour << " годин " << minute << " хвилин " << second << " секунд"<< endl;
-    }
-    ~Time (){
-        cout << "destructor" << endl;
-    }
+    void get1 ();
+    
+    ~Time ();
 };
