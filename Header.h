@@ -1,5 +1,5 @@
 
-using namespace std;
+
 
 class Time
 {
